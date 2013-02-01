@@ -1,0 +1,26 @@
+{
+    "name": "zoer/YiiRedis",
+    "description": "Forked from phpnode/YiiRedis",
+    "homepage": "https://github.com/zoer/YiiRedis",
+    "require": {
+        "predis/predis":"0.8.x"
+    },
+    "autoload":{
+        "classmap": [
+            "ARedisCache.php",
+            "ARedisChannel.php",
+            "ARedisConnection.php",
+            "ARedisCounter.php",
+            "ARedisEntity.php",
+            "ARedisHash.php",
+            "ARedisIterableEntity.php",
+            "ARedisList.php",
+            "ARedisLogRoute.php",
+            "ARedisMutex.php",
+            "ARedisRecord.php",
+            "ARedisSession.php",
+            "ARedisSet.php",
+            "ARedisSortedSet.php"
+        ]
+    }
+}
